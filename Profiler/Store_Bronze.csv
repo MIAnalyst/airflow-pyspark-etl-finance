@@ -1,0 +1,7 @@
+table,ingestion_date,column,dtype,row_count,null_count,whitespace_only_count,invalid_count,distinct_count,min_length,max_length,min_value,max_value
+Store,2025-08-20,BusinessEntityID,int,701,0,,0,701,,,292,2051
+Store,2025-08-20,Demographics,string,701,0,0,0,701,406,430,,
+Store,2025-08-20,ModifiedDate,timestamp,701,0,,0,1,,,2014-09-12 11:15:07.497000,2014-09-12 11:15:07.497000
+Store,2025-08-20,Name,string,701,0,0,0,699,9,41,,
+Store,2025-08-20,SalesPersonID,int,701,0,,0,13,,,275,290
+Store,2025-08-20,rowguid,string,701,0,0,0,701,36,36,,

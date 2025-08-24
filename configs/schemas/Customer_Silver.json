@@ -1,0 +1,26 @@
+{
+  "name": "Customer_Silver",
+  "primary_key": ["CustomerID"],
+  "required_not_null": ["CustomerID"],
+
+  "drop": ["rowguid", "ModifiedDate"],
+
+  "fillna": { "string": "UNK", "exclude": ["CustomerID"] },
+
+  "fields": [
+    { "name": "CustomerID",    "type": "integer", "nullable": false },
+    { "name": "AccountNumber", "type": "string",  "nullable": true  },
+    { "name": "PersonID",      "type": "integer", "nullable": true  },
+    { "name": "StoreID",       "type": "integer", "nullable": true  },
+    { "name": "TerritoryID",   "type": "integer", "nullable": true  },
+    { "name": "Type",          "type": "string",  "nullable": true  }
+  ],
+
+  "dq": {
+    "expected_rows": 19820, "tolerance": 0.0
+  },
+
+  "write": {
+    "partition_by": ["TerritoryID"]
+  }
+}

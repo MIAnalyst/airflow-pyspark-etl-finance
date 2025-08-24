@@ -1,0 +1,9 @@
+{
+  "name": "Store",
+  "schema_ddl": "BusinessEntityID INT, Name STRING, SalesPersonID INT, Demographics STRING, rowguid STRING, ModifiedDate TIMESTAMP",
+  "primary_key": ["BusinessEntityID"],
+  "required_not_null": ["BusinessEntityID"],
+  "dq": {"expected_rows": 701, "tolerance": 0.0},
+  "preprocess": {"replace_pairs": [["+|","\t"],["&|",""],["\ufeff",""]]},
+  "format": {"sep": "\t", "header": false}
+}

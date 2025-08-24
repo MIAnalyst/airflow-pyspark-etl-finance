@@ -1,0 +1,14 @@
+table,ingestion_date,column,dtype,row_count,null_count,whitespace_only_count,invalid_count,distinct_count,min_length,max_length,min_value,max_value
+Person,2025-08-20,AdditionalContactInfo,string,19972,19962,0,19962,10,490,1611,,
+Person,2025-08-20,BusinessEntityID,int,19972,0,,0,19972,,,1,20777
+Person,2025-08-20,Demographics,string,19972,0,0,0,19114,163,623,,
+Person,2025-08-20,EmailPromotion,int,19972,0,,0,3,,,0,2
+Person,2025-08-20,FirstName,string,19972,0,0,0,1018,2,24,,
+Person,2025-08-20,LastName,string,19972,0,0,0,1206,2,22,,
+Person,2025-08-20,MiddleName,string,19972,8499,0,8499,71,1,16,,
+Person,2025-08-20,ModifiedDate,timestamp,19972,0,,0,1285,,,2006-06-23 00:00:00,2015-04-15 16:33:33.123000
+Person,2025-08-20,NameStyle,int,19972,0,,0,1,,,0,0
+Person,2025-08-20,PersonType,string,19972,0,0,0,6,2,2,,
+Person,2025-08-20,Suffix,string,19972,19919,0,19919,6,2,3,,
+Person,2025-08-20,Title,string,19972,18963,0,18963,6,2,4,,
+Person,2025-08-20,rowguid,string,19972,0,0,0,19972,36,36,,

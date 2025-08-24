@@ -1,0 +1,10 @@
+{
+  "name": "SalesTerritory",
+  "schema_ddl": "TerritoryID INT, Name STRING, CountryRegionCode STRING, `Group` STRING, SalesYTD DECIMAL(19,4), SalesLastYear DECIMAL(19,4), CostYTD DECIMAL(19,4), CostLastYear DECIMAL(19,4), rowguid STRING, ModifiedDate TIMESTAMP",
+  "primary_key": ["TerritoryID"],
+  "required_not_null": ["TerritoryID"],
+  "dq": { "expected_rows": 10, "tolerance": 0.0 },
+  "write": { "partition_by": [] },
+  "preprocess": { "replace_pairs": [["+|", "\t"], ["&|", ""], ["\ufeff", ""]] },
+  "format": { "sep": "\t", "header": false }
+}

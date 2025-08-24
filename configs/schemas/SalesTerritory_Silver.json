@@ -1,0 +1,22 @@
+{
+  "name": "SalesTerritory_Silver",
+  "primary_key": ["TerritoryID"],
+  "required_not_null": ["TerritoryID"],
+
+  "fields": [
+    { "name": "TerritoryID",       "type": "integer",       "nullable": false },
+    { "name": "Name",              "type": "string",        "nullable": true  },
+    { "name": "CountryRegionCode", "type": "string",        "nullable": true  },
+    { "name": "Group",             "type": "string",        "nullable": true  },
+    { "name": "SalesYTD",          "type": "decimal(19,4)", "nullable": true  },
+    { "name": "SalesLastYear",     "type": "decimal(19,4)", "nullable": true  },
+    { "name": "CostYTD",           "type": "decimal(19,4)", "nullable": true  },
+    { "name": "CostLastYear",      "type": "decimal(19,4)", "nullable": true  }
+  ],
+
+  "dq": {"expected_rows": 10},
+
+  "write": {
+    "partition_by": []
+  }
+}

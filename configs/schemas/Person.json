@@ -1,0 +1,10 @@
+{
+  "name": "Person",
+  "schema_ddl": "BusinessEntityID INT, PersonType STRING, NameStyle INT, Title STRING, FirstName STRING, MiddleName STRING, LastName STRING, Suffix STRING, EmailPromotion INT, AdditionalContactInfo STRING, Demographics STRING, rowguid STRING, ModifiedDate TIMESTAMP",
+  "primary_key": ["BusinessEntityID"],
+  "required_not_null": ["BusinessEntityID", "rowguid", "ModifiedDate"],
+  "write": { "partition_by": ["PersonType"] },
+  "dq": {"expected_rows": 19972, "tolerance": 0.0},
+  "preprocess": { "replace_pairs": [["+|", "\t"], ["&|", ""], ["\ufeff", ""]] },
+  "format": { "sep": "\t", "header": false }
+}

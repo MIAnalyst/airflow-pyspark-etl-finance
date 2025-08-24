@@ -1,0 +1,10 @@
+{
+  "name": "Customer",
+  "schema_ddl": "CustomerID INT, PersonID INT, StoreID INT, TerritoryID INT, AccountNumber STRING, rowguid STRING, ModifiedDate TIMESTAMP",
+  "primary_key": ["CustomerID"],
+  "required_not_null": ["CustomerID", "AccountNumber", "rowguid", "ModifiedDate"],
+  "dq": { "expected_rows": 19820, "tolerance": 0.0 },
+  "write": { "partition_by": ["TerritoryID"] },
+  "preprocess": { "replace_pairs": [["+|", "\t"], ["&|", ""], ["\ufeff", ""]] },
+  "format": { "sep": "\t", "header": false }
+}

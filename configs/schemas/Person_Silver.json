@@ -1,0 +1,43 @@
+{
+  "name": "Person_Silver",
+  "primary_key": ["BusinessEntityID"],
+  "required_not_null": ["BusinessEntityID"],
+
+  "expand_xml": ["Demographics"],
+  "drop": ["AdditionalContactInfo", "rowguid", "ModifiedDate", "Demographics"],
+
+  "fillna": { "string": "UNK", "exclude": ["BusinessEntityID"] },
+
+  "fields": [
+    { "name": "BusinessEntityID",   "type": "integer",       "nullable": false },
+    { "name": "PersonType",         "type": "string",        "nullable": true  },
+    { "name": "NameStyle",          "type": "integer",       "nullable": true  },
+    { "name": "Title",              "type": "string",        "nullable": true  },
+    { "name": "FirstName",          "type": "string",        "nullable": true  },
+    { "name": "MiddleName",         "type": "string",        "nullable": true  },
+    { "name": "LastName",           "type": "string",        "nullable": true  },
+    { "name": "Suffix",             "type": "string",        "nullable": true  },
+    { "name": "EmailPromotion",     "type": "integer",       "nullable": true  },
+    { "name": "BirthDate",          "type": "date",          "nullable": true  },
+    { "name": "CommuteDistance",    "type": "string",        "nullable": true  },
+    { "name": "DateFirstPurchase",  "type": "date",          "nullable": true  },
+    { "name": "Education",          "type": "string",        "nullable": true  },
+    { "name": "Gender",             "type": "string",        "nullable": true  },
+    { "name": "HomeOwnerFlag",      "type": "integer",       "nullable": true  },
+    { "name": "MaritalStatus",      "type": "string",        "nullable": true  },
+    { "name": "NumberCarsOwned",    "type": "integer",       "nullable": true  },
+    { "name": "NumberChildrenAtHome","type": "integer",      "nullable": true  },
+    { "name": "Occupation",         "type": "string",        "nullable": true  },
+    { "name": "TotalChildren",      "type": "integer",       "nullable": true  },
+    { "name": "TotalPurchaseYTD",   "type": "decimal(19,4)", "nullable": true  },
+    { "name": "YearlyIncome",       "type": "string",        "nullable": true  }
+  ],
+
+  "dq": {
+       "expected_rows": 19972,"tolerance": 0.0 
+  },
+
+  "write": {
+    "partition_by": ["PersonType"]
+  }
+}

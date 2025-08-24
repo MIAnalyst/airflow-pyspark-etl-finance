@@ -1,0 +1,34 @@
+[2025-08-19T17:38:36.905+0200] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-08-19T17:38:36.913+0200] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spark_sanity.spark_version manual__2025-08-19T15:38:34.524772+00:00 [queued]>
+[2025-08-19T17:38:36.914+0200] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spark_sanity.spark_version manual__2025-08-19T15:38:34.524772+00:00 [queued]>
+[2025-08-19T17:38:36.915+0200] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-08-19T17:38:36.919+0200] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): spark_version> on 2025-08-19 15:38:34.524772+00:00
+[2025-08-19T17:38:36.921+0200] {standard_task_runner.py:64} INFO - Started process 14709 to run task
+[2025-08-19T17:38:36.924+0200] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'spark_sanity', 'spark_version', 'manual__2025-08-19T15:38:34.524772+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/spark_sanity.py', '--cfg-path', '/var/folders/rs/26sh2c8d3l36j5qyqswpsd4w0000gn/T/tmplz6yfkjk']
+[2025-08-19T17:38:36.925+0200] {standard_task_runner.py:91} INFO - Job 5: Subtask spark_version
+[2025-08-19T17:38:36.939+0200] {task_command.py:426} INFO - Running <TaskInstance: spark_sanity.spark_version manual__2025-08-19T15:38:34.524772+00:00 [running]> on host mac.home
+[2025-08-19T17:38:36.959+0200] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='spark_sanity' AIRFLOW_CTX_TASK_ID='spark_version' AIRFLOW_CTX_EXECUTION_DATE='2025-08-19T15:38:34.524772+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-08-19T15:38:34.524772+00:00'
+[2025-08-19T17:38:36.959+0200] {taskinstance.py:430} INFO - ::endgroup::
+[2025-08-19T17:38:36.960+0200] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/rs/26sh2c8d3l36j5qyqswpsd4w0000gn/T
+[2025-08-19T17:38:36.960+0200] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', '/opt/homebrew/bin/spark-submit --version']
+[2025-08-19T17:38:36.963+0200] {subprocess.py:86} INFO - Output:
+[2025-08-19T17:38:38.764+0200] {subprocess.py:93} INFO - WARNING: Using incubator modules: jdk.incubator.vector
+[2025-08-19T17:38:39.281+0200] {subprocess.py:93} INFO - Welcome to
+[2025-08-19T17:38:39.281+0200] {subprocess.py:93} INFO -       ____              __
+[2025-08-19T17:38:39.281+0200] {subprocess.py:93} INFO -      / __/__  ___ _____/ /__
+[2025-08-19T17:38:39.281+0200] {subprocess.py:93} INFO -     _\ \/ _ \/ _ `/ __/  '_/
+[2025-08-19T17:38:39.282+0200] {subprocess.py:93} INFO -    /___/ .__/\_,_/_/ /_/\_\   version 4.0.0
+[2025-08-19T17:38:39.282+0200] {subprocess.py:93} INFO -       /_/
+[2025-08-19T17:38:39.282+0200] {subprocess.py:93} INFO - 
+[2025-08-19T17:38:39.284+0200] {subprocess.py:93} INFO - Using Scala version 2.13.16, OpenJDK 64-Bit Server VM, 17.0.16
+[2025-08-19T17:38:39.284+0200] {subprocess.py:93} INFO - Branch HEAD
+[2025-08-19T17:38:39.285+0200] {subprocess.py:93} INFO - Compiled by user wenchen on 2025-05-19T07:58:03Z
+[2025-08-19T17:38:39.285+0200] {subprocess.py:93} INFO - Revision fa33ea000a0bda9e5a3fa1af98e8e85b8cc5e4d4
+[2025-08-19T17:38:39.285+0200] {subprocess.py:93} INFO - Url https://github.com/apache/spark
+[2025-08-19T17:38:39.285+0200] {subprocess.py:93} INFO - Type --help for more information.
+[2025-08-19T17:38:39.302+0200] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-08-19T17:38:39.302+0200] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-08-19T17:38:39.309+0200] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=spark_sanity, task_id=spark_version, run_id=manual__2025-08-19T15:38:34.524772+00:00, execution_date=20250819T153834, start_date=20250819T153836, end_date=20250819T153839
+[2025-08-19T17:38:39.350+0200] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-08-19T17:38:39.355+0200] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-08-19T17:38:39.356+0200] {local_task_job_runner.py:222} INFO - ::endgroup::

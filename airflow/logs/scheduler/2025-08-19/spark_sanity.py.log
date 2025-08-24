@@ -1,0 +1,221 @@
+[2025-08-19T17:17:53.353+0200] {processor.py:161} INFO - Started process (PID=11470) to work on /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:17:53.353+0200] {processor.py:830} INFO - Processing file /Users/ehabhasan/airflow/dags/spark_sanity.py for tasks to queue
+[2025-08-19T17:17:53.353+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:17:53.353+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:17:53.356+0200] {processor.py:840} INFO - DAG(s) 'spark_sanity' retrieved from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:17:53.455+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:17:53.455+0200] {override.py:1858} INFO - Created Permission View: can edit on DAG:spark_sanity
+[2025-08-19T17:17:53.458+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:17:53.458+0200] {override.py:1858} INFO - Created Permission View: can read on DAG:spark_sanity
+[2025-08-19T17:17:53.460+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:17:53.460+0200] {override.py:1858} INFO - Created Permission View: can delete on DAG:spark_sanity
+[2025-08-19T17:17:53.460+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:17:53.460+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-19T17:17:53.464+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:17:53.464+0200] {dag.py:3111} INFO - Creating ORM DAG for spark_sanity
+[2025-08-19T17:17:53.464+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:17:53.464+0200] {dag.py:3947} INFO - Setting next_dagrun for spark_sanity to None, run_after=None
+[2025-08-19T17:17:53.470+0200] {processor.py:183} INFO - Processing /Users/ehabhasan/airflow/dags/spark_sanity.py took 0.118 seconds
+[2025-08-19T17:19:11.961+0200] {processor.py:161} INFO - Started process (PID=11538) to work on /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:19:11.962+0200] {processor.py:830} INFO - Processing file /Users/ehabhasan/airflow/dags/spark_sanity.py for tasks to queue
+[2025-08-19T17:19:11.962+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:19:11.962+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:19:11.965+0200] {processor.py:840} INFO - DAG(s) 'spark_sanity' retrieved from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:19:12.001+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:19:12.001+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-19T17:19:12.004+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:19:12.004+0200] {dag.py:3947} INFO - Setting next_dagrun for spark_sanity to None, run_after=None
+[2025-08-19T17:19:12.011+0200] {processor.py:183} INFO - Processing /Users/ehabhasan/airflow/dags/spark_sanity.py took 0.051 seconds
+[2025-08-19T17:20:04.305+0200] {processor.py:161} INFO - Started process (PID=11592) to work on /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:20:04.306+0200] {processor.py:830} INFO - Processing file /Users/ehabhasan/airflow/dags/spark_sanity.py for tasks to queue
+[2025-08-19T17:20:04.306+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:20:04.306+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:20:04.308+0200] {processor.py:840} INFO - DAG(s) 'spark_sanity' retrieved from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:20:04.345+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:20:04.344+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-19T17:20:04.348+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:20:04.348+0200] {dag.py:3947} INFO - Setting next_dagrun for spark_sanity to None, run_after=None
+[2025-08-19T17:20:04.355+0200] {processor.py:183} INFO - Processing /Users/ehabhasan/airflow/dags/spark_sanity.py took 0.051 seconds
+[2025-08-19T17:20:53.865+0200] {processor.py:161} INFO - Started process (PID=11627) to work on /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:20:53.866+0200] {processor.py:830} INFO - Processing file /Users/ehabhasan/airflow/dags/spark_sanity.py for tasks to queue
+[2025-08-19T17:20:53.866+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:20:53.866+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:20:53.868+0200] {processor.py:840} INFO - DAG(s) 'spark_sanity' retrieved from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:20:53.903+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:20:53.903+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-19T17:20:53.906+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:20:53.906+0200] {dag.py:3947} INFO - Setting next_dagrun for spark_sanity to None, run_after=None
+[2025-08-19T17:20:53.913+0200] {processor.py:183} INFO - Processing /Users/ehabhasan/airflow/dags/spark_sanity.py took 0.049 seconds
+[2025-08-19T17:21:47.187+0200] {processor.py:161} INFO - Started process (PID=11660) to work on /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:21:47.188+0200] {processor.py:830} INFO - Processing file /Users/ehabhasan/airflow/dags/spark_sanity.py for tasks to queue
+[2025-08-19T17:21:47.188+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:21:47.188+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:21:47.191+0200] {processor.py:840} INFO - DAG(s) 'spark_sanity' retrieved from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:21:47.228+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:21:47.228+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-19T17:21:47.231+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:21:47.231+0200] {dag.py:3947} INFO - Setting next_dagrun for spark_sanity to None, run_after=None
+[2025-08-19T17:21:47.238+0200] {processor.py:183} INFO - Processing /Users/ehabhasan/airflow/dags/spark_sanity.py took 0.053 seconds
+[2025-08-19T17:22:44.945+0200] {processor.py:161} INFO - Started process (PID=11698) to work on /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:22:44.945+0200] {processor.py:830} INFO - Processing file /Users/ehabhasan/airflow/dags/spark_sanity.py for tasks to queue
+[2025-08-19T17:22:44.946+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:22:44.946+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:22:44.948+0200] {processor.py:840} INFO - DAG(s) 'spark_sanity' retrieved from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:22:44.982+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:22:44.982+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-19T17:22:44.986+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:22:44.985+0200] {dag.py:3947} INFO - Setting next_dagrun for spark_sanity to None, run_after=None
+[2025-08-19T17:22:44.992+0200] {processor.py:183} INFO - Processing /Users/ehabhasan/airflow/dags/spark_sanity.py took 0.048 seconds
+[2025-08-19T17:23:38.205+0200] {processor.py:161} INFO - Started process (PID=11738) to work on /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:23:38.205+0200] {processor.py:830} INFO - Processing file /Users/ehabhasan/airflow/dags/spark_sanity.py for tasks to queue
+[2025-08-19T17:23:38.205+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:23:38.205+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:23:38.207+0200] {processor.py:840} INFO - DAG(s) 'spark_sanity' retrieved from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:23:38.242+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:23:38.242+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-19T17:23:38.245+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:23:38.245+0200] {dag.py:3947} INFO - Setting next_dagrun for spark_sanity to None, run_after=None
+[2025-08-19T17:23:38.251+0200] {processor.py:183} INFO - Processing /Users/ehabhasan/airflow/dags/spark_sanity.py took 0.048 seconds
+[2025-08-19T17:24:31.155+0200] {processor.py:161} INFO - Started process (PID=11781) to work on /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:24:31.156+0200] {processor.py:830} INFO - Processing file /Users/ehabhasan/airflow/dags/spark_sanity.py for tasks to queue
+[2025-08-19T17:24:31.156+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:24:31.156+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:24:31.158+0200] {processor.py:840} INFO - DAG(s) 'spark_sanity' retrieved from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:24:31.194+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:24:31.194+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-19T17:24:31.198+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:24:31.198+0200] {dag.py:3947} INFO - Setting next_dagrun for spark_sanity to None, run_after=None
+[2025-08-19T17:24:31.204+0200] {processor.py:183} INFO - Processing /Users/ehabhasan/airflow/dags/spark_sanity.py took 0.051 seconds
+[2025-08-19T17:25:24.160+0200] {processor.py:161} INFO - Started process (PID=11818) to work on /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:25:24.161+0200] {processor.py:830} INFO - Processing file /Users/ehabhasan/airflow/dags/spark_sanity.py for tasks to queue
+[2025-08-19T17:25:24.161+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:25:24.161+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:25:24.164+0200] {processor.py:840} INFO - DAG(s) 'spark_sanity' retrieved from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:25:24.199+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:25:24.199+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-19T17:25:24.202+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:25:24.202+0200] {dag.py:3947} INFO - Setting next_dagrun for spark_sanity to None, run_after=None
+[2025-08-19T17:25:24.208+0200] {processor.py:183} INFO - Processing /Users/ehabhasan/airflow/dags/spark_sanity.py took 0.050 seconds
+[2025-08-19T17:26:16.665+0200] {processor.py:161} INFO - Started process (PID=11861) to work on /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:26:16.666+0200] {processor.py:830} INFO - Processing file /Users/ehabhasan/airflow/dags/spark_sanity.py for tasks to queue
+[2025-08-19T17:26:16.667+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:26:16.667+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:26:16.669+0200] {processor.py:840} INFO - DAG(s) 'spark_sanity' retrieved from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:26:16.706+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:26:16.706+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-19T17:26:16.710+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:26:16.710+0200] {dag.py:3947} INFO - Setting next_dagrun for spark_sanity to None, run_after=None
+[2025-08-19T17:26:16.716+0200] {processor.py:183} INFO - Processing /Users/ehabhasan/airflow/dags/spark_sanity.py took 0.053 seconds
+[2025-08-19T17:27:11.272+0200] {processor.py:161} INFO - Started process (PID=11898) to work on /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:27:11.273+0200] {processor.py:830} INFO - Processing file /Users/ehabhasan/airflow/dags/spark_sanity.py for tasks to queue
+[2025-08-19T17:27:11.273+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:27:11.273+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:27:11.275+0200] {processor.py:840} INFO - DAG(s) 'spark_sanity' retrieved from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:27:11.310+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:27:11.310+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-19T17:27:11.314+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:27:11.313+0200] {dag.py:3947} INFO - Setting next_dagrun for spark_sanity to None, run_after=None
+[2025-08-19T17:27:11.320+0200] {processor.py:183} INFO - Processing /Users/ehabhasan/airflow/dags/spark_sanity.py took 0.049 seconds
+[2025-08-19T17:28:06.795+0200] {processor.py:161} INFO - Started process (PID=11948) to work on /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:28:06.796+0200] {processor.py:830} INFO - Processing file /Users/ehabhasan/airflow/dags/spark_sanity.py for tasks to queue
+[2025-08-19T17:28:06.796+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:28:06.796+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:28:06.798+0200] {processor.py:840} INFO - DAG(s) 'spark_sanity' retrieved from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:28:06.834+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:28:06.833+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-19T17:28:06.837+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:28:06.837+0200] {dag.py:3947} INFO - Setting next_dagrun for spark_sanity to None, run_after=None
+[2025-08-19T17:28:06.843+0200] {processor.py:183} INFO - Processing /Users/ehabhasan/airflow/dags/spark_sanity.py took 0.050 seconds
+[2025-08-19T17:29:00.508+0200] {processor.py:161} INFO - Started process (PID=11987) to work on /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:29:00.509+0200] {processor.py:830} INFO - Processing file /Users/ehabhasan/airflow/dags/spark_sanity.py for tasks to queue
+[2025-08-19T17:29:00.509+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:29:00.509+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:29:00.511+0200] {processor.py:840} INFO - DAG(s) 'spark_sanity' retrieved from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:29:00.547+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:29:00.547+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-19T17:29:00.550+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:29:00.550+0200] {dag.py:3947} INFO - Setting next_dagrun for spark_sanity to None, run_after=None
+[2025-08-19T17:29:00.557+0200] {processor.py:183} INFO - Processing /Users/ehabhasan/airflow/dags/spark_sanity.py took 0.050 seconds
+[2025-08-19T17:29:58.286+0200] {processor.py:161} INFO - Started process (PID=12667) to work on /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:29:58.287+0200] {processor.py:830} INFO - Processing file /Users/ehabhasan/airflow/dags/spark_sanity.py for tasks to queue
+[2025-08-19T17:29:58.287+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:29:58.287+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:29:58.290+0200] {processor.py:840} INFO - DAG(s) 'spark_sanity' retrieved from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:29:58.326+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:29:58.326+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-19T17:29:58.329+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:29:58.329+0200] {dag.py:3947} INFO - Setting next_dagrun for spark_sanity to None, run_after=None
+[2025-08-19T17:29:58.335+0200] {processor.py:183} INFO - Processing /Users/ehabhasan/airflow/dags/spark_sanity.py took 0.051 seconds
+[2025-08-19T17:30:52.283+0200] {processor.py:161} INFO - Started process (PID=13913) to work on /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:30:52.285+0200] {processor.py:830} INFO - Processing file /Users/ehabhasan/airflow/dags/spark_sanity.py for tasks to queue
+[2025-08-19T17:30:52.285+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:30:52.285+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:30:52.287+0200] {processor.py:840} INFO - DAG(s) 'spark_sanity' retrieved from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:30:52.323+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:30:52.323+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-19T17:30:52.327+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:30:52.326+0200] {dag.py:3947} INFO - Setting next_dagrun for spark_sanity to None, run_after=None
+[2025-08-19T17:30:52.333+0200] {processor.py:183} INFO - Processing /Users/ehabhasan/airflow/dags/spark_sanity.py took 0.052 seconds
+[2025-08-19T17:31:49.027+0200] {processor.py:161} INFO - Started process (PID=13951) to work on /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:31:49.027+0200] {processor.py:830} INFO - Processing file /Users/ehabhasan/airflow/dags/spark_sanity.py for tasks to queue
+[2025-08-19T17:31:49.028+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:31:49.028+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:31:49.030+0200] {processor.py:840} INFO - DAG(s) 'spark_sanity' retrieved from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:31:49.065+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:31:49.065+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-19T17:31:49.068+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:31:49.068+0200] {dag.py:3947} INFO - Setting next_dagrun for spark_sanity to None, run_after=None
+[2025-08-19T17:31:49.075+0200] {processor.py:183} INFO - Processing /Users/ehabhasan/airflow/dags/spark_sanity.py took 0.049 seconds
+[2025-08-19T17:32:46.155+0200] {processor.py:161} INFO - Started process (PID=14163) to work on /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:32:46.156+0200] {processor.py:830} INFO - Processing file /Users/ehabhasan/airflow/dags/spark_sanity.py for tasks to queue
+[2025-08-19T17:32:46.156+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:32:46.156+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:32:46.158+0200] {processor.py:840} INFO - DAG(s) 'spark_sanity' retrieved from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:32:46.193+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:32:46.193+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-19T17:32:46.197+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:32:46.197+0200] {dag.py:3947} INFO - Setting next_dagrun for spark_sanity to None, run_after=None
+[2025-08-19T17:32:46.203+0200] {processor.py:183} INFO - Processing /Users/ehabhasan/airflow/dags/spark_sanity.py took 0.049 seconds
+[2025-08-19T17:33:40.816+0200] {processor.py:161} INFO - Started process (PID=14217) to work on /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:33:40.816+0200] {processor.py:830} INFO - Processing file /Users/ehabhasan/airflow/dags/spark_sanity.py for tasks to queue
+[2025-08-19T17:33:40.816+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:33:40.816+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:33:40.818+0200] {processor.py:840} INFO - DAG(s) 'spark_sanity' retrieved from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:33:40.854+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:33:40.854+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-19T17:33:40.857+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:33:40.857+0200] {dag.py:3947} INFO - Setting next_dagrun for spark_sanity to None, run_after=None
+[2025-08-19T17:33:40.864+0200] {processor.py:183} INFO - Processing /Users/ehabhasan/airflow/dags/spark_sanity.py took 0.050 seconds
+[2025-08-19T17:34:32.950+0200] {processor.py:161} INFO - Started process (PID=14263) to work on /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:34:32.951+0200] {processor.py:830} INFO - Processing file /Users/ehabhasan/airflow/dags/spark_sanity.py for tasks to queue
+[2025-08-19T17:34:32.951+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:34:32.951+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:34:32.954+0200] {processor.py:840} INFO - DAG(s) 'spark_sanity' retrieved from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:34:32.991+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:34:32.991+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-19T17:34:32.994+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:34:32.994+0200] {dag.py:3947} INFO - Setting next_dagrun for spark_sanity to None, run_after=None
+[2025-08-19T17:34:33.001+0200] {processor.py:183} INFO - Processing /Users/ehabhasan/airflow/dags/spark_sanity.py took 0.052 seconds
+[2025-08-19T17:35:26.630+0200] {processor.py:161} INFO - Started process (PID=14394) to work on /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:35:26.630+0200] {processor.py:830} INFO - Processing file /Users/ehabhasan/airflow/dags/spark_sanity.py for tasks to queue
+[2025-08-19T17:35:26.631+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:35:26.631+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:35:26.633+0200] {processor.py:840} INFO - DAG(s) 'spark_sanity' retrieved from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:35:26.669+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:35:26.669+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-19T17:35:26.672+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:35:26.672+0200] {dag.py:3947} INFO - Setting next_dagrun for spark_sanity to None, run_after=None
+[2025-08-19T17:35:26.679+0200] {processor.py:183} INFO - Processing /Users/ehabhasan/airflow/dags/spark_sanity.py took 0.050 seconds
+[2025-08-19T17:36:25.093+0200] {processor.py:161} INFO - Started process (PID=14473) to work on /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:36:25.093+0200] {processor.py:830} INFO - Processing file /Users/ehabhasan/airflow/dags/spark_sanity.py for tasks to queue
+[2025-08-19T17:36:25.093+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:36:25.093+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:36:25.096+0200] {processor.py:840} INFO - DAG(s) 'spark_sanity' retrieved from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:36:25.131+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:36:25.131+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-19T17:36:25.135+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:36:25.134+0200] {dag.py:3947} INFO - Setting next_dagrun for spark_sanity to None, run_after=None
+[2025-08-19T17:36:25.141+0200] {processor.py:183} INFO - Processing /Users/ehabhasan/airflow/dags/spark_sanity.py took 0.050 seconds
+[2025-08-19T17:37:21.837+0200] {processor.py:161} INFO - Started process (PID=14542) to work on /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:37:21.837+0200] {processor.py:830} INFO - Processing file /Users/ehabhasan/airflow/dags/spark_sanity.py for tasks to queue
+[2025-08-19T17:37:21.837+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:37:21.837+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:37:21.840+0200] {processor.py:840} INFO - DAG(s) 'spark_sanity' retrieved from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:37:21.925+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:37:21.925+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-19T17:37:21.929+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:37:21.929+0200] {dag.py:3947} INFO - Setting next_dagrun for spark_sanity to None, run_after=None
+[2025-08-19T17:37:21.936+0200] {processor.py:183} INFO - Processing /Users/ehabhasan/airflow/dags/spark_sanity.py took 0.101 seconds
+[2025-08-19T17:38:20.156+0200] {processor.py:161} INFO - Started process (PID=14689) to work on /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:38:20.156+0200] {processor.py:830} INFO - Processing file /Users/ehabhasan/airflow/dags/spark_sanity.py for tasks to queue
+[2025-08-19T17:38:20.157+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:38:20.157+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:38:20.160+0200] {processor.py:840} INFO - DAG(s) 'spark_sanity' retrieved from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:38:20.197+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:38:20.197+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-19T17:38:20.200+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:38:20.200+0200] {dag.py:3947} INFO - Setting next_dagrun for spark_sanity to None, run_after=None
+[2025-08-19T17:38:20.208+0200] {processor.py:183} INFO - Processing /Users/ehabhasan/airflow/dags/spark_sanity.py took 0.053 seconds
+[2025-08-19T17:39:22.198+0200] {processor.py:161} INFO - Started process (PID=14754) to work on /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:39:22.198+0200] {processor.py:830} INFO - Processing file /Users/ehabhasan/airflow/dags/spark_sanity.py for tasks to queue
+[2025-08-19T17:39:22.198+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:39:22.198+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:39:22.201+0200] {processor.py:840} INFO - DAG(s) 'spark_sanity' retrieved from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:39:22.237+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:39:22.236+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-19T17:39:22.240+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:39:22.240+0200] {dag.py:3947} INFO - Setting next_dagrun for spark_sanity to None, run_after=None
+[2025-08-19T17:39:22.246+0200] {processor.py:183} INFO - Processing /Users/ehabhasan/airflow/dags/spark_sanity.py took 0.050 seconds
+[2025-08-19T17:40:23.459+0200] {processor.py:161} INFO - Started process (PID=14842) to work on /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:40:23.460+0200] {processor.py:830} INFO - Processing file /Users/ehabhasan/airflow/dags/spark_sanity.py for tasks to queue
+[2025-08-19T17:40:23.460+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:40:23.460+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:40:23.462+0200] {processor.py:840} INFO - DAG(s) 'spark_sanity' retrieved from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:40:23.498+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:40:23.498+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-19T17:40:23.501+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:40:23.501+0200] {dag.py:3947} INFO - Setting next_dagrun for spark_sanity to None, run_after=None
+[2025-08-19T17:40:23.507+0200] {processor.py:183} INFO - Processing /Users/ehabhasan/airflow/dags/spark_sanity.py took 0.050 seconds
+[2025-08-19T17:44:58.585+0200] {processor.py:161} INFO - Started process (PID=14943) to work on /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:44:58.585+0200] {processor.py:830} INFO - Processing file /Users/ehabhasan/airflow/dags/spark_sanity.py for tasks to queue
+[2025-08-19T17:44:58.585+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:44:58.585+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:44:58.588+0200] {processor.py:840} INFO - DAG(s) 'spark_sanity' retrieved from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:44:58.625+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:44:58.625+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-19T17:44:58.628+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:44:58.628+0200] {dag.py:3947} INFO - Setting next_dagrun for spark_sanity to None, run_after=None
+[2025-08-19T17:44:58.634+0200] {processor.py:183} INFO - Processing /Users/ehabhasan/airflow/dags/spark_sanity.py took 0.051 seconds
+[2025-08-19T17:45:58.783+0200] {processor.py:161} INFO - Started process (PID=14992) to work on /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:45:58.783+0200] {processor.py:830} INFO - Processing file /Users/ehabhasan/airflow/dags/spark_sanity.py for tasks to queue
+[2025-08-19T17:45:58.783+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:45:58.783+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:45:58.786+0200] {processor.py:840} INFO - DAG(s) 'spark_sanity' retrieved from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:45:58.823+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:45:58.823+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-19T17:45:58.827+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:45:58.826+0200] {dag.py:3947} INFO - Setting next_dagrun for spark_sanity to None, run_after=None
+[2025-08-19T17:45:58.833+0200] {processor.py:183} INFO - Processing /Users/ehabhasan/airflow/dags/spark_sanity.py took 0.052 seconds
+[2025-08-19T17:47:00.818+0200] {processor.py:161} INFO - Started process (PID=15047) to work on /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:47:00.819+0200] {processor.py:830} INFO - Processing file /Users/ehabhasan/airflow/dags/spark_sanity.py for tasks to queue
+[2025-08-19T17:47:00.819+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:47:00.819+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:47:00.821+0200] {processor.py:840} INFO - DAG(s) 'spark_sanity' retrieved from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:47:00.859+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:47:00.859+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-19T17:47:00.863+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:47:00.863+0200] {dag.py:3947} INFO - Setting next_dagrun for spark_sanity to None, run_after=None
+[2025-08-19T17:47:00.869+0200] {processor.py:183} INFO - Processing /Users/ehabhasan/airflow/dags/spark_sanity.py took 0.053 seconds
+[2025-08-19T17:48:01.535+0200] {processor.py:161} INFO - Started process (PID=15091) to work on /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:48:01.536+0200] {processor.py:830} INFO - Processing file /Users/ehabhasan/airflow/dags/spark_sanity.py for tasks to queue
+[2025-08-19T17:48:01.536+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:48:01.536+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:48:01.538+0200] {processor.py:840} INFO - DAG(s) 'spark_sanity' retrieved from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:48:01.574+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:48:01.574+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-19T17:48:01.577+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:48:01.577+0200] {dag.py:3947} INFO - Setting next_dagrun for spark_sanity to None, run_after=None
+[2025-08-19T17:48:01.583+0200] {processor.py:183} INFO - Processing /Users/ehabhasan/airflow/dags/spark_sanity.py took 0.050 seconds
+[2025-08-19T17:48:57.686+0200] {processor.py:161} INFO - Started process (PID=15133) to work on /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:48:57.686+0200] {processor.py:830} INFO - Processing file /Users/ehabhasan/airflow/dags/spark_sanity.py for tasks to queue
+[2025-08-19T17:48:57.686+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:48:57.686+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:48:57.689+0200] {processor.py:840} INFO - DAG(s) 'spark_sanity' retrieved from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:48:57.725+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:48:57.725+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-19T17:48:57.728+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:48:57.728+0200] {dag.py:3947} INFO - Setting next_dagrun for spark_sanity to None, run_after=None
+[2025-08-19T17:48:57.734+0200] {processor.py:183} INFO - Processing /Users/ehabhasan/airflow/dags/spark_sanity.py took 0.050 seconds
+[2025-08-19T17:49:52.422+0200] {processor.py:161} INFO - Started process (PID=15174) to work on /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:49:52.422+0200] {processor.py:830} INFO - Processing file /Users/ehabhasan/airflow/dags/spark_sanity.py for tasks to queue
+[2025-08-19T17:49:52.422+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:49:52.422+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:49:52.425+0200] {processor.py:840} INFO - DAG(s) 'spark_sanity' retrieved from /Users/ehabhasan/airflow/dags/spark_sanity.py
+[2025-08-19T17:49:52.461+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:49:52.461+0200] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-08-19T17:49:52.464+0200] {logging_mixin.py:188} INFO - [2025-08-19T17:49:52.464+0200] {dag.py:3947} INFO - Setting next_dagrun for spark_sanity to None, run_after=None
+[2025-08-19T17:49:52.470+0200] {processor.py:183} INFO - Processing /Users/ehabhasan/airflow/dags/spark_sanity.py took 0.050 seconds

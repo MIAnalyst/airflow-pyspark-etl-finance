@@ -1,0 +1,11 @@
+table,ingestion_date,column,dtype,row_count,null_count,whitespace_only_count,invalid_count,distinct_count,min_length,max_length,min_value,max_value
+SalesTerritory,2025-08-22,CostLastYear,"decimal(19,4)",10,0,,0,1,,,0.0000,0.0000
+SalesTerritory,2025-08-22,CostYTD,"decimal(19,4)",10,0,,0,1,,,0.0000,0.0000
+SalesTerritory,2025-08-22,CountryRegionCode,string,10,0,0,0,6,2,2,,
+SalesTerritory,2025-08-22,Group,string,10,0,0,0,3,6,13,,
+SalesTerritory,2025-08-22,ModifiedDate,timestamp,10,0,,0,1,,,2008-04-30 00:00:00,2008-04-30 00:00:00
+SalesTerritory,2025-08-22,Name,string,10,0,0,0,10,6,14,,
+SalesTerritory,2025-08-22,SalesLastYear,"decimal(19,4)",10,0,,0,10,,,1307949.7917,5693988.8600
+SalesTerritory,2025-08-22,SalesYTD,"decimal(19,4)",10,0,,0,10,,,2402176.8476,10510853.8739
+SalesTerritory,2025-08-22,TerritoryID,int,10,0,,0,10,,,1,10
+SalesTerritory,2025-08-22,rowguid,string,10,0,0,0,10,38,38,,

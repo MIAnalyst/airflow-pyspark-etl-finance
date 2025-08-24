@@ -1,0 +1,27 @@
+{
+  "name": "Store_Silver",
+  "primary_key": ["BusinessEntityID"],
+  "required_not_null": ["BusinessEntityID"],
+  "drop": ["ModifiedDate", "rowguid", "Demographics"],
+  "expand_xml": ["Demographics"],
+  "fields": [
+    { "name": "BusinessEntityID", "type": "integer",       "nullable": false },
+    { "name": "Name",             "type": "string",        "nullable": true  },
+    { "name": "SalesPersonID",    "type": "integer",       "nullable": true  },
+
+    { "name": "AnnualRevenue",    "type": "decimal(19,4)", "nullable": true  },
+    { "name": "AnnualSales",      "type": "decimal(19,4)", "nullable": true  },
+    { "name": "BankName",         "type": "string",        "nullable": true  },
+    { "name": "Brands",           "type": "string",        "nullable": true  },
+    { "name": "BusinessType",     "type": "string",        "nullable": true  },
+    { "name": "Internet",         "type": "string",        "nullable": true  },
+    { "name": "NumberEmployees",  "type": "integer",       "nullable": true  },
+    { "name": "Specialty",        "type": "string",        "nullable": true  },
+    { "name": "SquareFeet",       "type": "integer",       "nullable": true  },
+    { "name": "YearOpened",       "type": "integer",       "nullable": true  }
+  ],
+  "dq": { "expected_rows": 701, "tolerance": 0.0 },
+  "write": {
+    "partition_by": ["ingestion_date"]
+  }
+}

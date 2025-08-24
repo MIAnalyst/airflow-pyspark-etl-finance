@@ -1,0 +1,9 @@
+paths:
+  bronze: "/Users/ehabhasan/Documents/Projects/airflow-pyspark-etl-finance/AdventureWorks/data/bronze"
+  silver: "/Users/ehabhasan/Documents/Projects/airflow-pyspark-etl-finance/AdventureWorks/data/silver"
+  gold:   "/Users/ehabhasan/Documents/Projects/airflow-pyspark-etl-finance/AdventureWorks/data/gold"
+spark:
+  master: "local[*]"
+  conf:
+    spark.sql.shuffle.partitions: "8"
+    spark.sql.session.timeZone: "UTC"
